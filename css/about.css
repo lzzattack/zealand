@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background: rgb(32,36,29);
+    color:white;
+}
+.HBM_Logo2{
+    position: absolute;
+    top:70px;
+    right:50px;
+    width: 209px;
+    z-index:3;
+}
+.container{
+    margin:140px 20px 0 50px;
+}
+.container>p:nth-child(1){
+    font-size: 2.5em;
+    margin-bottom:25px;
+}
+.container>p:nth-child(2){
+    font-size: 3em;
+}
+.container>p:nth-child(3){
+    font-size: 2.2em;
+    margin-bottom:25px;
+}
+.Method>p:nth-child(1){
+    font-size: 3em;
+}
+.Method p{
+    font-size:1.8em
+}
+.Method{
+    margin-bottom: 25px;
+}
+.prize>p:nth-child(1){
+    font-size: 3em;
+}
+.prize>ul{
+    font-size:1.8em;
+}
+.prize1{
+    width:150px;
+}
+.prize2{
+    height:200px;
+}
+.prize2_describe{
+    padding:6px;
+    display: inline-block;
+}
+
+@media (max-width: 540px) {
+    .container{
+        /*width: 414px;*/
+        margin-top:150px;
+        font-size: 1.6em;
+    }
+    .HBM_Logo2{
+        position: absolute;
+        top:40px;
+        right:20px;
+        width: 150px;
+        z-index:3;
+    }
+    .container>p:nth-child(1){
+        font-size: 1em;
+        margin-bottom:25px;
+    }
+    .container>p:nth-child(2){
+        font-size: 1em;
+    }
+    .container>p:nth-child(3){
+        font-size: 1em;
+        margin-bottom:25px;
+    }
+    .Method>p:nth-child(1){
+        font-size: 1em;
+    }
+    .Method p{
+        font-size:1em
+    }
+    .Method{
+        margin-bottom: 25px;
+    }
+    .prize>p:nth-child(1){
+        font-size: 1em;
+    }
+    .prize>ul{
+        font-size:1em;
+    }
+}
